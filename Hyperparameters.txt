@@ -1,0 +1,45 @@
+Sure! Here is a list of popular regression and classification algorithms, along with some commonly used hyperparameters for each:
+
+Regression Algorithms:
+1. Linear Regression:
+   - fit_intercept: whether to calculate the intercept (True/False)
+   - normalize: whether to normalize the input variables (True/False)
+
+2. Ridge Regression:
+   - alpha: regularization strength
+   - solver: algorithm to use for optimization (e.g., 'auto', 'svd', 'cholesky', 'lsqr', 'saga')
+
+3. Lasso Regression:
+   - alpha: regularization strength
+   - max_iter: maximum number of iterations for optimization
+
+4. ElasticNet Regression:
+   - alpha: regularization strength
+   - l1_ratio: the mixing parameter between L1 and L2 penalties
+   - max_iter: maximum number of iterations for optimization
+
+Classification Algorithms:
+1. Logistic Regression:
+   - C: inverse of regularization strength
+   - penalty: type of regularization ('l1', 'l2', 'elasticnet', 'none')
+   - solver: algorithm to use for optimization (e.g., 'lbfgs', 'liblinear', 'saga')
+
+2. Support Vector Machines (SVM):
+   - C: regularization parameter
+   - kernel: type of kernel function ('linear', 'poly', 'rbf', 'sigmoid')
+   - gamma: kernel coefficient (for 'rbf', 'poly', 'sigmoid')
+
+3. Random Forest:
+   - n_estimators: number of decision trees in the forest
+   - max_depth: maximum depth of each decision tree
+   - min_samples_split: minimum number of samples required to split an internal node
+
+4. Gradient Boosting:
+   - learning_rate: step size shrinkage
+   - n_estimators: number of boosting stages
+   - max_depth: maximum depth of each individual estimator
+
+5. K-Nearest Neighbors (KNN):
+   - n_neighbors: number of neighbors to consider
+   - weights: weight function used in prediction ('uniform', 'distance')
+   - p: power parameter for the Minkowski distance metric
